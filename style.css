@@ -1,0 +1,147 @@
+body {
+    margin: auto;
+    padding-right: 1em;
+    padding-left: 1em;
+    max-width: 44em;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 100%;
+    line-height: 140%;
+    color: #333; 
+}
+
+pre {
+    border: 1px dotted gray;
+    background-color: #ececec;
+    color: #1111111;
+    padding: 0.5em;
+}
+code {
+    font-family: monospace;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a { 
+    text-decoration: none;
+    color: #7a5ada; 
+}
+h1, h2, h3, h4, h5 { font-family: Helvetica;
+                     font-weight: bold;
+                     /*color: #7a5ada; }*/
+		     color: black; }
+h1 {
+        font-size: 130%;
+        /*border-bottom: 1px solid lightgray;*/
+}
+
+h2 {
+        font-size: 110%;
+        border-bottom: 1px solid lightgray;
+}
+
+h3 {
+        font-size: 95%;
+}
+
+h4 {
+        font-size: 90%;
+        font-style: italic;
+}
+
+h5 {
+        font-size: 90%;
+        font-style: italic;
+}
+
+h1.title {
+        font-size: 150%;
+        font-weight: bold;
+        padding-top: 0.2em;
+        padding-bottom: 0.2em;
+        text-align: left;
+        border: none;
+}
+
+dt code {
+        font-weight: bold;
+}
+dd p {
+        margin-top: 0;
+}
+
+ul.nav {
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: lightgray;
+  	position: -webkit-sticky; /* Safari */
+  	position: sticky;
+  	top: 0;
+}
+
+li.nav {
+  float: left;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+li.nav a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding-top: 5px;
+  padding-right:  14px;
+  padding-bottom:  5px;
+  padding-left: 14px;
+  text-decoration: none;
+}
+
+li.nav a:hover {
+  background-color: gray;
+  /*padding-left: 14px;
+  padding-right: 14px;*/
+}
+
+li.nav .active {
+  background-color: black;
+  color:white;
+  font-weight:bold;
+}
+
+@media screen and (max-width: 600px) {
+  ul.nav li {float: none;}
+  /*li.nav {padding-right: 0px;}
+  li.nav a {padding-right: 14px; padding-top: 10px; padding-bottom:10px}*/
+}
+
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 7px;
+}
+
+th {
+  background-color: grey;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+table {
+  max-width: 96%;
+  margin-left:2%;
+  margin-right:2%;
+}
+
+#footer {
+        padding-top: 1em;
+        font-size: 70%;
+        color: gray;
+        text-align: center;
+        }
